@@ -1,0 +1,63 @@
+@import url("main.css");
+@import url("https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic,700");
+@import url("https://fonts.googleapis.com/css?family=Josefin+Slab:400,700");
+.name-part {
+  color: #0194fe; }
+
+.main-button {
+  font: 25px "Josefin Slab", serif;
+  text-decoration: none;
+  padding: 7px 10px;
+  margin: 5px;
+  transition: all 200ms ease;
+  display: inline-block;
+  color: #0194fe;
+  border: 2px solid #011149; }
+  .main-button:hover {
+    color: white;
+    background-color: #011149; }
+
+#about {
+  color: #011149;
+  background-color: #ebf6ff;
+  font: 1em/1.5 "Libre Baskerville", serif;
+  padding: 0 60px 60px; }
+  #about h1 {
+    display: none; }
+  #about h2 {
+    font: 50px "Josefin Slab", serif;
+    font-weight: bold;
+    padding: 20px 0 10px; }
+  #about ul {
+    padding: 1em 20px;
+    list-style: disc; }
+  #about p {
+    padding: 0.5em 0; }
+
+.page {
+  min-height: 100%;
+  width: 100%; }
+
+#introduction {
+  background-color: white;
+  color: #011149;
+  padding: 50px 0 20px;
+  font: 20px "Libre Baskerville", serif;
+  text-align: center; }
+
+.app-url {
+  font: 70px "Josefin Slab", serif;
+  font-weight: bold;
+  margin-top: 30px; }
+
+.app-summary {
+  font-family: "Libre Baskerville", serif;
+  font-style: italic;
+  margin-top: 20px;
+  margin-bottom: 40px; }
+
+.app-name-meaning {
+  font: 30px/1.2 "Libre Baskerville", serif; }
+
+#email-contact {
+  font-style: italic; }
