@@ -1,5 +1,7 @@
 @import url('reset.css');
 
+@import 'colors';
+
 * {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -13,4 +15,14 @@ html, body {
 
 body {
   margin: 0px;
+}
+
+a {
+  color: $light-color;
+  text-decoration: none;
+
+  &:hover {
+    color: $bg-color;
+    background-color: $dark-color;
+  }
 }

@@ -1,13 +1,7 @@
 @import url('main.css');
-@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic,700');
-@import url('https://fonts.googleapis.com/css?family=Josefin+Slab:400,700');
 
-$main-font: 'Libre Baskerville', serif;
-$font-2: 'Josefin Slab', serif;
-$bg-color: white;
-$dark-color: #011149;
-$light-color: #0194fe;
-$bg-darker-color: #ebf6ff;
+@import 'fonts';
+@import 'colors';
 
 .name-part {
   color: $light-color;
@@ -44,6 +38,7 @@ $bg-darker-color: #ebf6ff;
     font: 50px $font-2;
     font-weight: bold;
     padding: 20px 0 10px;
+    color: $light-color;
   }
 
   ul {

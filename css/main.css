@@ -10,3 +10,10 @@ html, body {
 
 body {
   margin: 0px; }
+
+a {
+  color: #0194fe;
+  text-decoration: none; }
+  a:hover {
+    color: white;
+    background-color: #011149; }
