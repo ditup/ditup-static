@@ -1,4 +1,6 @@
 @import url("reset.css");
+@import url("https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic,700");
+@import url("https://fonts.googleapis.com/css?family=Josefin+Slab:400,700");
 * {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -17,3 +19,40 @@ a {
   a:hover {
     color: white;
     background-color: #011149; }
+
+.button-container {
+  text-align: center; }
+  .button-container .button {
+    font: 25px "Josefin Slab", serif;
+    text-decoration: none;
+    padding: 7px 10px;
+    margin: 5px;
+    transition: all 200ms ease;
+    display: inline-block;
+    color: #0194fe;
+    border: 2px solid #011149; }
+    .button-container .button:hover {
+      color: white;
+      background-color: #011149; }
+    .button-container .button[disabled] {
+      color: gray;
+      background-color: white; }
+
+.info-section {
+  color: #011149;
+  font: 1.2em/1.5 "Libre Baskerville", serif; }
+  .info-section h1 {
+    font: 60px "Josefin Slab", serif;
+    font-weight: bold;
+    padding: 20px 0 10px;
+    color: #0194fe; }
+  .info-section h2 {
+    font: 50px "Josefin Slab", serif;
+    font-weight: bold;
+    padding: 20px 0 10px;
+    color: #0194fe; }
+  .info-section ul {
+    padding: 1em 20px;
+    list-style: disc; }
+  .info-section p {
+    padding: 0.5em 0; }
