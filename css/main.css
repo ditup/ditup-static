@@ -1,6 +1,6 @@
 @import url("reset.css");
 @import url("https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic,700");
-@import url("https://fonts.googleapis.com/css?family=Josefin+Slab:400,700");
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans:400,700");
 * {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -23,7 +23,7 @@ a {
 .button-container {
   text-align: center; }
   .button-container .button {
-    font: 25px "Josefin Slab", serif;
+    font: 25px "Josefin Sans", sans-serif;
     text-decoration: none;
     padding: 7px 10px;
     margin: 5px;
@@ -42,12 +42,12 @@ a {
   color: #011149;
   font: 1.2em/1.5 "Libre Baskerville", serif; }
   .info-section h1 {
-    font: 60px "Josefin Slab", serif;
+    font: 60px "Josefin Sans", sans-serif;
     font-weight: bold;
     padding: 20px 0 10px;
     color: #0194fe; }
   .info-section h2 {
-    font: 50px "Josefin Slab", serif;
+    font: 50px "Josefin Sans", sans-serif;
     font-weight: bold;
     padding: 20px 0 10px;
     color: #0194fe; }

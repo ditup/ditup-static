@@ -1,6 +1,6 @@
 @import url("main.css");
 @import url("https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic,700");
-@import url("https://fonts.googleapis.com/css?family=Josefin+Slab:400,700");
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans:400,700");
 .name-part {
   color: #0194fe; }
 
@@ -22,7 +22,7 @@
   text-align: center; }
 
 .app-url {
-  font: 70px "Josefin Slab", serif;
+  font: 70px "Josefin Sans", sans-serif;
   font-weight: bold;
   margin-top: 30px; }
 
